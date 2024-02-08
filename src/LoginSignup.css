@@ -1,0 +1,113 @@
+/* NewStyles.css */
+
+/* Main Container */
+.new-styles-box {
+  max-width: 400px;
+  margin: 2rem auto;
+  padding: 1.5rem; /* Smaller padding */
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+}
+
+/* Header Style */
+.new-styles-header {
+  text-align: center;
+  color: #4CAF50;
+  margin-bottom: 1.5rem;
+  font-size: 2rem;
+}
+
+/* Input Styles */
+.inputs {
+  margin-bottom: 1rem; /* Smaller margin */
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+  width: 100%;
+  padding: 10px; /* Smaller padding */
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem; /* Smaller margin */
+  border: 2px solid #4CAF50;
+  border-radius: 6px;
+  box-sizing: border-box;
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="password"]:focus {
+  border-color: #45a049;
+  box-shadow: 0 0 10px rgba(76, 175, 80, 0.5);
+}
+
+/* Label Styles */
+label {
+  display: block;
+  margin-bottom: 0.5rem;
+  color: #666;
+}
+
+/* Forgot Password Link Style */
+.forgot-password {
+  text-align: right;
+  margin-bottom: 1rem; /* Smaller margin */
+}
+
+.forgot-password span {
+  color: #4CAF50;
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+/* Submit Button Styles */
+.submit-btns {
+  text-align: center;
+}
+
+.submit {
+  background-color: #4CAF50;
+  color: #fff;
+  padding: 10px 15px; /* Smaller padding */
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  transition: background-color 0.3s ease;
+}
+
+.submit:hover {
+  background-color: #45a049;
+}
+
+/* Media Query for Responsiveness */
+@media (max-width: 768px) {
+  .new-styles-box {
+    margin: 1rem;
+    padding: 1.5rem;
+  }
+
+  .submit {
+    width: 100%;
+  }
+}
+
+/* Toggle View Button Style */
+.toggle-view {
+  background-color: #f8f9fa;
+  color: #6c757d;
+  border: 1px solid #ddd;
+  margin-top: 15px;
+  transition: background-color 0.3s ease, border-color 0.3s ease;
+}
+
+.toggle-view:hover {
+  background-color: #e2e6ea;
+  border-color: #dae0e5;
+}
+
+
